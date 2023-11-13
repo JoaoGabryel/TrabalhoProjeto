@@ -9,12 +9,14 @@
 
         <?php $i = 1; shuffle($produtos); foreach($produtos as $produto) { ?>
            
-           <div class="coluna">
-                <img src="imagens/<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>">
-           
-                <p><strong><?=$produto["nome"]?></strong><br> R$ <?=$produto["valor"]?></p>
-
-                <p><a href="produto.php?id=<?=$produto["id"]?>">Detalhes</a></p>
+           <div class="coluna card">
+                <img src="imagens/<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>" class="card-img-top">
+                
+                <div class="card-body">
+                    <h5 class="card-title"><strong><?=$produto["nome"]?></strong></h5>
+                </div>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p><a href="produto.php?id=<?=$produto["id"]?>" class="btn btn-primary">Detalhes</a></p>
             </div>
 
         <?php $i++; if($i > 4) break;} ?>
