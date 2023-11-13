@@ -1,6 +1,6 @@
 <?php
     include "header.php";
-    include "dados.php";
+    include "config.php";
 ?>
 
 <main>

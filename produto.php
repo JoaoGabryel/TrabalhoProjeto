@@ -1,10 +1,8 @@
 <?php
     include "header.php";
-    include "dados.php";
-
+    include "config.php";
     $id = $_GET["id"];
 ?>
-
 <main>
     <div class="grid-2">
         <div class="coluna">
@@ -17,7 +15,6 @@
         </div>
     </div>
 </main>
-
 <?php
     include "footer.php";
 ?>
