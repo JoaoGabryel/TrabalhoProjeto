@@ -1,6 +1,10 @@
 <?php
-    include "header.php";
-    include "dados.php";
+include "header.php";
+include "config.php";
+$sql = "SELECT * FROM profissional";
+$consulta = $pdo->prepare($sql);
+$consulta->execute();
+$profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <main>
@@ -8,33 +12,34 @@
     <div class="grid">
 
         <?php
-            $i = 1;
-            shuffle($produtos);
-            foreach($produtos as $produto) { 
+        $i = 1;
+        shuffle($profissionais);
+        foreach ($profissionais as $profissional) {
         ?>
-           
-           <div class="coluna">
-                <img src="imagens/<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>">
-           
+
+            <div class="coluna">
+                <img src="imagens/<?= $profissional["imagem"] ?>" alt="<?= $profissional["nome"] ?>">
+
                 <p>
-                    <strong><?=$produto["nome"]?></strong><br>
-                    R$ <?=$produto["valor"]?>
+                    <strong><?= $profissional["nome"] ?></strong><br>
+                    <?= $profissional["email"] ?>
+                    <?= $profissional["clinica"] ?>
                 </p>
 
                 <p>
-                    <a href="produto.php?id=<?=$produto["id"]?>">Detalhes</a>
+                    <a href="produto.php?id=<?= $profissional["id"] ?>">Detalhes</a>
                 </p>
             </div>
 
-        <?php 
-                $i++;//RTA
-                if($i > 4) break;
-            }
+        <?php
+            $i++;
+            if ($i > 4) break;
+        }
         ?>
 
     </div>
 </main>
 
 <?php
-    include "footer.php";
+include "footer.php";
 ?>
