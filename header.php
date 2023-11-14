@@ -18,7 +18,7 @@
             <ul>
                 <li><a href="index.php" title="Home">Home</a></li>
                 <li><a href="sobre.php" title="Sobre">Sobre</a></li>
-                <li><a href="produtos.php" title="Profissionais">Profissionais</a></li>
+                <li><a href="profissionais.php" title="Profissionais">Profissionais</a></li>
                 <li><a href="contato.php" title="Contato Geral">Contato Geral</a></li>
             </ul>
         </nav>
