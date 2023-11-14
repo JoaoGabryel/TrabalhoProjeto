@@ -10,8 +10,6 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
 <main>
     <h1>Profissionais Disponiveis:</h1>
     <div class="container">
-
-<<<<<<< HEAD
         <div class="row row-cols-2">
             <?php $i = 1;
             shuffle($profissionais);
