@@ -8,6 +8,9 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <main>
+    <h1>SEJA BEM-VINDO</h1>
+    <P>O autismo é um transtorno neurológico que afeta o desenvolvimento social, comunicativo e comportamental. Caracteriza-se por desafios na interação social, comunicação atípica, interesses restritos e padrões repetitivos de comportamento. A variedade de sintomas e intensidade varia amplamente, tornando cada indivíduo único em suas experiências autistas.</P>
+    <p>Por isso, queremos ajudar as pessoas a conviverem harmoniozamente com essa condição.</p>
     <h1>Profissionais Disponiveis:</h1>
     <div class="container">
         <div class="row row-cols-2">
