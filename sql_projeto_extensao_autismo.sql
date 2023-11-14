@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `projeto_extensao_autismo`
+-- Banco de dados: `projeto`
 --
-CREATE DATABASE IF NOT EXISTS `projeto_extensao_autismo` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `projeto_extensao_autismo`;
+CREATE DATABASE IF NOT EXISTS `projeto` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `projeto`;
 
 -- --------------------------------------------------------
 
@@ -60,12 +60,12 @@ CREATE TABLE `profissional` (
 --
 
 INSERT INTO `profissional` (`id`, `nome`, `email`, `fone`, `cnpj`, `cep`, `num`, `complemento`, `clinica`, `foto`) VALUES
-(1, 'Benjamin Eduardo de Paula', 'benjamin_eduardo_depaula@akaer.com.br', '86991755718', '95418581000192', '64003090', '111', 'Bloco 1 / AP 10', 'Elite Clínica', 'doutor-benjamim'),
-(2, 'Melissa Larissa Regina Castro', 'melissa-castro97@revati.com.br', '96981016023', '44929224000158', '68906181', '283', '', 'Connection Clínica', 'doutora-melissa'),
-(3, 'Benedita Rafaela Sophie Farias', 'benedita.rafaela.farias@pontofinalcafe.com.br', '85988582334', '91536961000170', '61618840', '491', 'Ao lado da livraria Castello', 'Clínica Life', 'doutora-benedita'),
-(4, 'Brenda Lívia da Cunha', 'brenda_dacunha@doublesp.com.br', '84997915187', '90891891000106', '59628604', '578', 'Bloco 3 / 5º Andar / AP 4', 'Clínica Bem-Estar Integral', 'doutora-brenda'),
-(5, 'Fabiana Isabelly Clarice Oliveira', 'fabiana_oliveira@tasaut.com.br', '38992566192', '40687154000118', '39406552', '812', '', 'Alma Clínica', 'doutora-fabiana'),
-(6, 'Manuela Heloisa Josefa Drumond', 'manuela-drumond90@power.alston.com', '86996474547', '07449278000190', '64071730', '203', '', 'Vital Clínica', 'doutora-manu');
+(1, 'Benjamin Eduardo de Paula', 'benjamin_eduardo_depaula@akaer.com.br', '86991755718', '95418581000192', '64003090', '111', 'Bloco 1 / AP 10', 'Elite Clínica', 'doutor-benjamim.jpg'),
+(2, 'Melissa Larissa Regina Castro', 'melissa-castro97@revati.com.br', '96981016023', '44929224000158', '68906181', '283', '', 'Connection Clínica', 'doutora-melissa.jpg'),
+(3, 'Benedita Rafaela Sophie Farias', 'benedita.rafaela.farias@pontofinalcafe.com.br', '85988582334', '91536961000170', '61618840', '491', 'Ao lado da livraria Castello', 'Clínica Life', 'doutora-benedita.jpg'),
+(4, 'Brenda Lívia da Cunha', 'brenda_dacunha@doublesp.com.br', '84997915187', '90891891000106', '59628604', '578', 'Bloco 3 / 5º Andar / AP 4', 'Clínica Bem-Estar Integral', 'doutora-brenda.jpg'),
+(5, 'Fabiana Isabelly Clarice Oliveira', 'fabiana_oliveira@tasaut.com.br', '38992566192', '40687154000118', '39406552', '812', '', 'Alma Clínica', 'doutora-fabiana.jpg'),
+(6, 'Manuela Heloisa Josefa Drumond', 'manuela-drumond90@power.alston.com', '86996474547', '07449278000190', '64071730', '203', '', 'Vital Clínica', 'doutora-manu.jpg');
 
 --
 -- Índices para tabelas despejadas
