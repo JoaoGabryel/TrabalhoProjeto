@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 14/11/2023 às 01:07
+-- Tempo de geração: 14/11/2023 às 01:13
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -26,10 +26,10 @@ USE `projeto_extensao_autismo`;
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `blogs`
+-- Estrutura para tabela `blog`
 --
 
-CREATE TABLE `blogs` (
+CREATE TABLE `blog` (
   `id` int(11) NOT NULL,
   `titulo` varchar(100) NOT NULL,
   `corpo` varchar(10000) NOT NULL,
@@ -72,9 +72,9 @@ INSERT INTO `profissional` (`id`, `nome`, `email`, `fone`, `cnpj`, `cep`, `num`,
 --
 
 --
--- Índices de tabela `blogs`
+-- Índices de tabela `blog`
 --
-ALTER TABLE `blogs`
+ALTER TABLE `blog`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -88,9 +88,9 @@ ALTER TABLE `profissional`
 --
 
 --
--- AUTO_INCREMENT de tabela `blogs`
+-- AUTO_INCREMENT de tabela `blog`
 --
-ALTER TABLE `blogs`
+ALTER TABLE `blog`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
