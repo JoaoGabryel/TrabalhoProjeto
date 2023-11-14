@@ -9,26 +9,31 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
 
 <main>
     <h1>Nossos Profissionais Qualificados:</h1>
-    <div class="grid">
-
-        <?php
-        foreach ($profissionais as $profissional) {
-        ?>
-
-            <div class="card-body">
-                <img src="./imagens/<?= $profissional["foto"] ?>" alt="<?= $profissional["nome"] ?>" class="card-img-top">
-                <?= $profissional["clinica"] ?>
-                <?= $profissional["email"] ?>
-            </div>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p><a href="profissional.php?id=<?= $profissional["id"] ?>" class="btn btn-primary">Detalhes</a></p>
+    <div class="container">
+        <div class="row row-cols-2">
+            <?php
+            foreach ($profissionais as $profissional) {
+            ?>
+                <div>
+                    <div class="coluna card">
+                        <img src="./imagens/<?= $profissional["foto"] ?>" alt="<?= $profissional["nome"] ?>" class="card-img-top">
+                        <div class="card-body">
+                            <?= $profissional["nome"]?>
+                        </div>
+                        <p class="card-text">Local:<?= $profissional["clinica"] ?><br>
+                        contato:<?= $profissional["email"] ?></p>
+                        <p><a href="profissional.php?id=<?= $profissional["id"] ?>" class="btn btn-primary">Detalhes</a></p>
+                    </div>
+                </div>
+            <?php
+            }
+            ?>
+        </div>
     </div>
 
-<?php
-        }
-?>
 
-</div>
+
+    </div>
 </main>
 
 <?php
