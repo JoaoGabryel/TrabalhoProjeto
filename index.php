@@ -17,7 +17,6 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
 
             <div class="coluna card ">
                 <img src="./imagens/<?= $profissional["foto"] ?>" alt="<?= $profissional["nome"] ?>" class="card-img-top">
-
                 <div class="card-body">
                     <?= $profissional["clinica"] ?>
                     <?= $profissional["email"] ?>
