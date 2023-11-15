@@ -30,6 +30,8 @@ if (!empty($id)) {
     </div>
     <div class="container">
         <h1>Mural de Pacientes Atendidos</h1>
+    </div>
+    <div class="container">
         <div class="row row-cols-2">
             <?php for ($i = 0; $i < 4; $i++) {
             ?>
@@ -41,6 +43,7 @@ if (!empty($id)) {
                 </div>
             <?php } ?>
         </div>
+    </div>
     </div>
 </main>
 

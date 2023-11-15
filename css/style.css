@@ -50,11 +50,15 @@ header nav ul li a {
 
 header nav ul li a:hover{
     border-radius: 35px;
-    border: 1px solid white;
+    border:0 solid white;
     background-color: white;
     color: lightblue;
     text-decoration: none;
     transition: 4ms linear;
+}
+
+nav i {
+    padding-right: 6.5px;
 }
 
 .img {
@@ -117,6 +121,7 @@ h3 {
     width: 30rem;
 }
 
+
 .card {
     display: flex;
     margin-top: 15px;
@@ -135,10 +140,25 @@ h3 {
     height: auto;
 }
 
-.img-sobre {
+.img-sobre, .img-profissional {
     width: 85%;
     border-radius: 30px;
 }
+
+.profissional-main {
+    margin: 15px 0;
+    padding:0px 100px;
+}
+
+.profissional-footer {
+    margin: 15px 0;
+    padding: 30px 200px;
+}
+
+.profissional-footer h2 {
+    padding-bottom: 15px;
+}
+
 footer {
     background-color: lightblue;
     color: black;
