@@ -41,6 +41,7 @@ if (!empty($id)) {
                     <div class="card-body">João Paulo, 10 anos</div>
                 </div>
             </div>
+        
             <div class="col">
                 <div class="card">
                     <img src="./imagens/<?= $foto["img"] ?>" alt="" class="card-img-top">
