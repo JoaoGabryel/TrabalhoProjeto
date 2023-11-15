@@ -37,25 +37,25 @@ if (!empty($id)) {
         <div class="row row-cols-2">
             <div class="col">
                 <div class="card">
-                    <img src="./imagens/crianca1.png" alt="" class="card-img-top">
+                    <img src="./imagens/<?= $foto["img"] ?>" alt="" class="card-img-top">
                     <div class="card-body">João Paulo, 10 anos</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./imagens/crianca2.jpg" alt="" class="card-img-top">
+                    <img src="./imagens/<?= $foto["img"] ?>" alt="" class="card-img-top">
                     <div class="card-body">Daniel Silva, 8 anos</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./imagens/crianca3.jpg" alt="" class="card-img-top">
+                    <img src="./imagens/<?= $foto["img"] ?>" alt="" class="card-img-top">
                     <div class="card-body">Pedro Miguel, 11 anos</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./imagens/crianca4.jpg" alt="" class="card-img-top">
+                    <img src="./imagens/<?= $foto["img"] ?>" alt="" class="card-img-top">
                     <div class="card-body">Paulo Souza, 7 anos</div>
                 </div>
             </div>
