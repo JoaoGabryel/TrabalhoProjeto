@@ -7,7 +7,6 @@
     src:url("../fontes/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf");
 }
 
-
 h3 {
     font-family: TitleFont;
 }
@@ -61,6 +60,10 @@ main {
     margin-bottom: 30px;
 }
 
+.text p {
+    font-size: x-large;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -80,7 +83,6 @@ h3 {
     align-content: center;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin-bottom: 30px;
     user-select:none
 }
 
@@ -92,10 +94,23 @@ h3 {
     flex-wrap: wrap;
 }
 
+.container {
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: 30rem;
+}
+
 .card {
     display: flex;
     margin-top: 15px;
-    max-height: fit-content;
+    max-width: max-content;
 }
 
 .card-body,.card-text {
