@@ -16,11 +16,11 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
             <label for="email">Seu E-mail:</label>
             <input type="email" name="nome" id="nome" placeholder="seuemail@gmail.com">
             <select class="form-select " aria-label=".form-select" style="margin-top:30px;" name="uf">
-            <option value="">E-mail do Profissional</option>
+            <option value="">Nome do Profissional</option>
                 <?php
                 foreach ($profissionais as $profissional) {
                 ?>
-                    <option value=<?= $profissional['email'] ?>><?= $profissional['email'] ?></option>
+                    <option value=<?= $profissional['nome'] ?>><?= $profissional['nome'] ?></option>
 
                 <?php
                 }
