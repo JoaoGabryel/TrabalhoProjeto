@@ -24,34 +24,23 @@ if (!empty($id)) {
     <div class="container alinhado">
         <h1><?= $sobre["titulo"] ?></h1>
         <div class="text">
-            <?= $sobre["texto"] ?>
+            <p><?= $sobre["texto"] ?></p>
         </div>
-        <div class="row row-cols-2">
-            <div class="col">
-                <div class="card">
-                    <div class="card alinhado">
-                        <img src="./imagens/<?= $foto["img"] ?>" class="card-img-top">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="alinhado img-sobre"><img src="./imagens/<?= $foto["img"] ?>" class="img-sobre"></div>
     </div>
     <div class="container">
         <h1>Mural de Pacientes Atendidos</h1>
         <div class="row row-cols-2">
             <?php for ($i = 0; $i < 4; $i++) {
-                # code...
             ?>
                 <div class="col">
-
                     <div class="card">
                         <img src="./imagens/<?= $fotos[$i]["img"] ?>" class="card-img-top">
                         <div class="card-body"><?= $fotos[$i]["nome"] ?></div>
                     </div>
                 </div>
-
+            <?php } ?>
         </div>
-    <?php } ?>
     </div>
 </main>
 

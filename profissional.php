@@ -12,7 +12,7 @@ $profissionais = $consulta->fetch(PDO::FETCH_ASSOC);
         <div class="coluna">
             <img src="imagens/<?= $profissionais["foto"] ?>" alt="<?= $profissionais["nome"] ?>">
         </div>
-
+        
         <div class="coluna">
             <h2><?= $profissionais["nome"] ?></h2>
             <p><?= $profissionais["clinica"] ?></p>
