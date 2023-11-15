@@ -28,7 +28,7 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
             </select>
             <br>
             <label for="mensagem">Sua mensagem:</label>
-            <textarea name="mensagem" rows="5"></textarea>
+            <textarea name="mensagem" rows="10"></textarea>
             <br>
             <button type="submit">Enviar Mensagem</button>
         </form>

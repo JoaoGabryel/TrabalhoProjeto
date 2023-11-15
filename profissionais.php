@@ -21,7 +21,7 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
                             <?= $profissional["nome"] ?>
                         </div>
                         <p class="card-text">Local:<?= $profissional["clinica"] ?><br>
-                            contato:<?= $profissional["email"] ?></p>
+                            Contato:<?= $profissional["email"] ?></p>
                         <div class="alinhado">
                             <p><a href="profissional.php?id=<?= $profissional["id"] ?>" class="btn btn-primary">Detalhes</a></p>
                         </div>
