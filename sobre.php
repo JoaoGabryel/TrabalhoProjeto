@@ -12,13 +12,38 @@ include "header.php";
     <p>O Caminho Azul vai além do virtual, organizando eventos online, webinars e sessões de terapia em grupo. Essas iniciativas promovem a interação em tempo real, criando uma atmosfera de solidariedade e aprendizado contínuo.</p>
     <p>Além disso, o site abriga uma seção exclusiva para recursos educacionais, incluindo atividades personalizadas e ferramentas interativas desenvolvidas para estimular o desenvolvimento cognitivo e social de indivíduos com TEA.</p>
     <p>O "Caminho Azul" não é apenas um site; é um refúgio virtual que transcende as barreiras da distância, proporcionando apoio tangível e emocional para aqueles que enfrentam o TEA. Ao unir conhecimento, compaixão e tecnologia, essa plataforma emerge como um farol de esperança e solidariedade na jornada única do autismo.</p>
-    <img src="./imagens/equipe.jpg" alt="" class="card-img-top">
+
+
+
+
+
+
+
+    <img src="./imagens/equipe.jpg" alt="">
+
 
     <h1>Conheça nosso Mural de Pacientes</h1>
-    <img src="./imagens/crianca1.png" alt="" class="card-img-top">
-    <img src="./imagens/crianca2.jpg" alt="" class="card-img-top">
-    <img src="./imagens/crianca3.jpg" alt="" class="card-img-top">
-    <img src="./imagens/crianca4.jpg" alt="" class="card-img-top">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img src="./imagens/crianca1.png" alt="">
+    <img src="./imagens/crianca2.jpg" alt="">
+    <img src="./imagens/crianca3.jpg" alt="">
+    <img src="./imagens/crianca4.jpg" alt="">
 </main>
 
 <?php
