@@ -13,6 +13,10 @@ if (!empty($id)) {
     $consulta = $pdo->prepare($sql);
     $consulta->execute();
     $foto = $consulta->fetch(PDO::FETCH_ASSOC); //Fetch 
+    $sql = "SELECT * FROM foto WHERE id != $id";
+    $consulta = $pdo->prepare($sql);
+    $consulta->execute();
+    $fotos = $consulta->fetchAll(PDO::FETCH_ASSOC); //Fetch 
 }
 ?>
 
@@ -35,32 +39,19 @@ if (!empty($id)) {
     <div class="container">
         <h1>Mural de Pacientes Atendidos</h1>
         <div class="row row-cols-2">
-            <div class="col">
-                <div class="card">
-                    <img src="./imagens/crianca1.png" alt="" class="card-img-top">
-                    <div class="card-body">João Paulo, 10 anos</div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./imagens/crianca2.jpg" alt="" class="card-img-top">
-                    <div class="card-body">Daniel Silva, 8 anos</div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./imagens/crianca3.jpg" alt="" class="card-img-top">
-                    <div class="card-body">Pedro Miguel, 11 anos</div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./imagens/crianca4.jpg" alt="" class="card-img-top">
-                    <div class="card-body">Paulo Souza, 7 anos</div>
-                </div>
-            </div>
-        </div>
+            <?php for ($i = 0; $i < 4; $i++) {
+                # code...
+            ?>
+                <div class="col">
 
+                    <div class="card">
+                        <img src="./imagens/<?= $fotos[$i]["img"] ?>" class="card-img-top">
+                        <div class="card-body"><?= $fotos[$i]["nome"] ?></div>
+                    </div>
+                </div>
+
+        </div>
+    <?php } ?>
     </div>
 </main>
 
