@@ -16,6 +16,7 @@ include "header.php";
         <div class="card alinhado"><img src="./imagens/equipe.jpg" alt="Equipe de médicos" class="card-img-top"></div>
     </div>
     <div class="container">
+    <h1>Mural de Pacientes Atendidos</h1>
         <div class="row row-cols-2">
             <div class="col">
                 <div class="card">
