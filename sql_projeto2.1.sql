@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `projeto2`
 --
-CREATE DATABASE IF NOT EXISTS `projeto2` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS `projeto2.1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `projeto2`;
 
 -- --------------------------------------------------------
