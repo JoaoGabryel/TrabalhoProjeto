@@ -18,10 +18,10 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
                     <div class="coluna card">
                         <img src="./imagens/<?= $profissional["foto"] ?>" alt="<?= $profissional["nome"] ?>" class="card-img-top">
                         <div class="card-body">
-                            <?= $profissional["nome"]?>
+                            <?= $profissional["nome"] ?>
                         </div>
                         <p class="card-text">Local:<?= $profissional["clinica"] ?><br>
-                        contato:<?= $profissional["email"] ?></p>
+                            contato:<?= $profissional["email"] ?></p>
                         <p><a href="profissional.php?id=<?= $profissional["id"] ?>" class="btn btn-primary">Detalhes</a></p>
                     </div>
                 </div>
