@@ -75,7 +75,12 @@ main {
     text-align: justify;
     padding-top: 35px;
 }
-
+.btn{
+    background-color: red;
+}
+.btn:hover{
+    background-color: blue;
+}
 h1, h2, h4 {
     text-align: center;
     margin: 0;
