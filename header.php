@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagens/logo.png">
 </head>
@@ -23,10 +24,10 @@
 
         <nav>
             <ul>
-                <li><a href="index.php" title="Home">Home</a></li>
-                <li><a href="sobre.php" title="Sobre">Sobre</a></li>
-                <li><a href="profissionais.php" title="Profissionais">Profissionais</a></li>
-                <li><a href="contato.php" title="Contato Geral">Contato Geral</a></li>
+                <li><a href="index.php" title="Home"><i class="bi bi-house"></i>Home</a></li>
+                <li><a href="sobre.php" title="Sobre"><i class="bi bi-send"></i>Sobre</a></li>
+                <li><a href="profissionais.php" title="Profissionais"><i class="bi bi-person-square"></i>Profissionais</a></li>
+                <li><a href="contato.php" title="Contato Geral"><i class="bi bi-telephone"></i>Contato Geral</a></li>
             </ul>
         </nav>
     </header>

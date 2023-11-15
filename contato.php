@@ -21,7 +21,7 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
                 foreach ($profissionais as $profissional) {
                 ?>
                     <option value=<?= $profissional['nome'] ?>><?= $profissional['nome'] ?></option>
-
+                        
                 <?php
                 }
                 ?>

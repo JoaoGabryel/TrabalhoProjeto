@@ -27,8 +27,9 @@ $profissionais = $consulta->fetch(PDO::FETCH_ASSOC);
         <div class="coluna">
             <h2><?= $profissionais["nome"] ?></h2>
             <p>Clínica: <?= $profissionais["clinica"] ?></p>
-            <p>Telefone: <?= $profissionais["fone"] ?></p>
-            <p><?php echo (Mask("#####-#####", $profissionais["fone"])) ?></p>
+            <p>Telefone: (44)<?= $profissionais["fone"] ?></p>
+            <p>Email: <?= $profissionais["email"] ?></p>
+           
         </div>
     </div>
 </main>
