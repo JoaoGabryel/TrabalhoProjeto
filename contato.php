@@ -21,7 +21,7 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
                 foreach ($profissionais as $profissional) {
                 ?>
                     <option value=<?= $profissional['nome'] ?>><?= $profissional['nome'] ?></option>
-                        
+
                 <?php
                 }
                 ?>
@@ -30,7 +30,7 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
             <label for="mensagem">Sua mensagem:</label>
             <textarea name="mensagem" rows="10"></textarea>
             <br>
-            <button type="submit">Enviar Mensagem</button>
+            <button class="btn" type="submit"><strong>Enviar Mensagem</strong></button>
         </form>
     </div>
 </main>
