@@ -76,11 +76,12 @@ main {
     padding-top: 35px;
 }
 .btn{
-    background-color: red;
+    background-color: yellow;
 }
 .btn:hover{
-    background-color: blue;
+    background-color: lightblue;
 }
+
 h1, h2, h4 {
     text-align: center;
     margin: 0;
@@ -112,7 +113,12 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
 }
-
+.alinhado p a{
+    color: black;
+}
+.alinhado p a:hover{
+    color: black;
+}
 .container {
     margin-top: 30px;
 }

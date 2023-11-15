@@ -12,11 +12,11 @@ if (!empty($id)) {
     $sql = "SELECT * FROM foto WHERE id = $id";
     $consulta = $pdo->prepare($sql);
     $consulta->execute();
-    $foto = $consulta->fetch(PDO::FETCH_ASSOC); //Fetch 
+    $foto = $consulta->fetch(PDO::FETCH_ASSOC);
     $sql = "SELECT * FROM foto WHERE id != $id";
     $consulta = $pdo->prepare($sql);
     $consulta->execute();
-    $fotos = $consulta->fetchAll(PDO::FETCH_ASSOC); //Fetch 
+    $fotos = $consulta->fetchAll(PDO::FETCH_ASSOC);
 }
 ?>
 
