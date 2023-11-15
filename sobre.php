@@ -5,7 +5,7 @@ include "header.php";
 <main>
     <div class="container alinhado">
         <h1>Um Refúgio Virtual para o Autismo: Conectando Corações no Mundo Digital</h1>
-        <div class="Text">
+        <div class="text">
             <p>No vasto universo da internet, surge um farol de esperança e acolhimento para aqueles que enfrentam o desafio do Transtorno do Espectro Autista (TEA). O site "Caminho Azul" se destaca como uma plataforma dedicada a oferecer suporte integral a pessoas com TEA, bem como às suas famílias e cuidadores.</p>
             <p>Ao adentrar o Caminho Azul, os visitantes são recebidos por uma interface intuitiva e amigável, projetada para proporcionar uma experiência inclusiva. O site oferece uma variedade de recursos, desde artigos informativos escritos por especialistas renomados até relatos de experiências pessoais, permitindo que os usuários se sintam compreendidos e conectados.</p>
             <p>Uma característica marcante do Caminho Azul é a comunidade vibrante que floresce em seus fóruns. Famílias compartilham suas jornadas, trocam dicas valiosas e oferecem apoio emocional. Profissionais especializados também participam, fornecendo orientação e respondendo a perguntas de maneira acessível.</p>
