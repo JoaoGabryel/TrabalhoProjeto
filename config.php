@@ -2,7 +2,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$banco = "projeto";
+$banco = "projeto2";
 try {
     $pdo = new PDO("mysql:host={$servidor};dbname={$banco};porta=3306;charset=utf8;",$usuario,$senha);
 } catch (\Exception $e) {
