@@ -1,6 +1,7 @@
 <?php
 include "header.php";
 include "config.php";
+
 $sql = "SELECT * FROM profissional";
 $consulta = $pdo->prepare($sql);
 $consulta->execute();
