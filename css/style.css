@@ -52,7 +52,7 @@ header nav ul li a:hover{
     border-radius: 35px;
     border:0 solid white;
     background-color: white;
-    color: lightblue;
+    color: rgb(2, 159, 211);
     text-decoration: none;
     transition: 4ms linear;
 }
@@ -193,15 +193,4 @@ textarea {
     width: 100%;
     margin-bottom: 10px;
     ;
-}
-
-button {
-    border: 0;
-    background: lightblue;
-    padding: 10px;
-    color: #FFF;
-}
-button{
-    color: black;
-    border-radius: 10%;
 }
