@@ -20,8 +20,8 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
                         <div class="card-body alinhado">
                             <?= $profissional["nome"] ?>
                         </div>
-                        <p class="card-text">Local:<?= $profissional["clinica"] ?><br>
-                            Contato:<?= $profissional["email"] ?></p>
+                        <p class="card-text">Local: <?= $profissional["clinica"] ?><br>
+                            Contato: <?= $profissional["email"] ?></p>
                         <div class="alinhado">
                             <p><a href="profissional.php?id=<?= $profissional["id"] ?>" class="btn btn-primary"><i class="bi bi-list-check"></i>Detalhes</a></p>
                         </div>
