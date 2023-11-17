@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <script defer src="script.js"></script>
+    <script defer src="script/script.js"></script>
     <header>
         <a href="index.php" title="Home">
             <img class="img" src="imagens/logo.png" alt="Americanas">
