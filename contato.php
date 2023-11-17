@@ -14,9 +14,9 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
             <label for="nome">Seu Nome:</label>
             <input type="text" name="nome" id="nome">
             <label for="email">Seu E-mail:</label>
-            <input type="email" name="nome" id="nome" placeholder="seuemail@gmail.com">
+            <input type="email" name="nome" id="email" placeholder="seuemail@gmail.com">
             <select class="form-select " aria-label=".form-select" style="margin-top:30px;" name="uf">
-            <option value="">Nome do Profissional</option>
+            <option id="opc">Nome do Profissional</option>
                 <?php
                 foreach ($profissionais as $profissional) {
                 ?>
@@ -30,7 +30,7 @@ $profissionais = $consulta->fetchAll(PDO::FETCH_ASSOC);
             <label for="mensagem">Sua mensagem:</label>
             <textarea name="mensagem" rows="10"></textarea>
             <br>
-            <button class="btn" type="submit"><strong>Enviar Mensagem</strong></button>
+            <button class="btn" type="submit" id="enviar"><strong>Enviar Mensagem</strong></button>
         </form>
     </div>
 </main>
